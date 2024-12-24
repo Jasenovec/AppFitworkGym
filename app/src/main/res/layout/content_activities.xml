@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_trainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="#FFEE02"
+    android:orientation="horizontal"
+    app:cardCornerRadius="24dp"
+
+    >
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/activity_trainer"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="24dp"
+            android:contentDescription="@string/title_maps"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/type_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/clases_de_baile"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#1D1B20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textInstruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/instructor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#1D1B20" />
+
+            <TextView
+                android:id="@+id/textNameInstructor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/name_instructor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#1D1B20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textSchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/dia_y_hora"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#1D1B20" />
+
+            <TextView
+                android:id="@+id/textScheduleTrainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/horario"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#1D1B20"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>-->
+
+</androidx.cardview.widget.CardView>

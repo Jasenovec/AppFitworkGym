@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_trainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="#1F8718"
+    android:orientation="horizontal"
+    app:cardCornerRadius="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_schedule"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="10dp"
+
+            android:contentDescription="@string/title_maps"
+            android:src="@drawable/logo"
+            android:textSize="14sp"
+            android:text="@string/horario_de_atencion"
+            android:textAlignment="center"
+            android:textColor="#FFEE02"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/star_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/star_schedule"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FEF7FF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/end_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/end_schedule"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FEF7FF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trainer_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/actualmente"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFEE02"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/schedule_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="30sp"
+                android:text="@string/time_schedule"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#11FF00"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

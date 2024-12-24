@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_admin"
+    app:startDestination="@+id/navigation_trainer">
+
+    <fragment
+        android:id="@+id/navigation_trainer"
+        android:name="com.fitworkgym.ui.fragments.trainer.TrainerFragment"
+        android:label="Trainers"
+        tools:layout="@layout/fragment_trainer" >
+        <action
+            android:id="@+id/action_navigation_trainer_to_addTrainerFragment"
+            app:destination="@id/addTrainerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_equipo"
+        android:name="com.fitworkgym.ui.fragments.equipo_admin.EquipoAdminFragment"
+        android:label="Equipos"
+        tools:layout="@layout/fragment_equipo_admin" >
+        <action
+            android:id="@+id/action_navigation_equipo_to_addEquipoFragment"
+            app:destination="@id/addEquipoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTrainerFragment"
+        android:name="com.fitworkgym.ui.fragments.login.AddTrainerFragment"
+        android:label="Add Trainer"
+        tools:layout="@layout/fragment_add_trainer" >
+        <action
+            android:id="@+id/action_addTrainerFragment_to_navigation_trainer"
+            app:destination="@id/navigation_trainer" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEquipoFragment"
+        android:name="com.fitworkgym.ui.fragments.login.AddEquipoFragment"
+        android:label="AddEquipoFragment" />
+
+</navigation>

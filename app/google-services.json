@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441749390604",
+    "project_id": "appgimnasio-b0ed2",
+    "storage_bucket": "appgimnasio-b0ed2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441749390604:android:273635a255c7d34e02f529",
+        "android_client_info": {
+          "package_name": "com.fitworkgym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgU9l0W-Jr_TVz6QeXT0WrlWPPj434ioc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
